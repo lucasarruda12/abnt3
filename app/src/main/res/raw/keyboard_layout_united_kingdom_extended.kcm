@@ -57,52 +57,55 @@ map key 95 NUMPAD_COMMA
 key 1 {
   label: '1'
   base: '1'
-  shift: '\u0021'
-  capslock+shift: '\u0021'
+  shift: '\u0021' ## !
+  capslock+shift: '\u0021' ## !
+  ralt: '\u00b9' ## ¹
 }
 
 key 2 {
-  label: '2'
+  label: '2' 
   base: '2'
-  shift: '\u0022'
-  capslock+shift: '\u0022'
-  ralt: '\u0308'
+  shift: '\u0040' ## @
+  capslock+shift: '\u0040' ## @
+  ralt: '\u00b2' ## ²
 }
 
 key 3 {
-  label: '3'
+  label: '3' 
   base: '3'
-  shift: '\u00a3'
-  capslock+shift: '\u00a3'
+  shift: '\u0023' ## #
+  capslock+shift: '\u0023' ## #
+  ralt: '\u00b3' ## ³
 }
 
 key 4 {
-  label: '4'
+  label: '4' 
   base: '4'
-  shift: '\u0024'
-  capslock+shift: '\u0024'
-  ralt: '\u20ac'
+  shift: '\u0024' ## $
+  capslock+shift: '\u0024' ## $
+  ralt: '\u20ac' ## £
 }
 
 key 5 {
   label: '5'
   base: '5'
-  shift: '\u0025'
-  capslock+shift: '\u0025'
+  shift: '\u0025' ## %
+  capslock+shift: '\u0025' ## %
+  ralt: '\u00a2' ## ¢
 }
 
 key 6 {
   label: '6'
   base: '6'
-  shift: '\u005e'
-  capslock+shift: '\u005e'
-  ralt: '\u0302'
+  shift: '\u005e' ## "
+  capslock+shift: '\u005e' ## "
+  ralt: '\u0302' ## ¬
 }
 
 key 7 {
   label: '7'
   base: '7'
-  shift: '\u0026'
+  shift: '\u0026' 
   capslock+shift: '\u0026'
 }
 
@@ -155,10 +158,6 @@ key W {
   shift: 'W'
   capslock: 'W'
   capslock+shift: 'w'
-  ralt: '\u1e83'
-  ralt+shift: '\u1e82'
-  ralt+capslock: '\u1e82'
-  ralt+capslock+shift: '\u1e83'
 }
 
 key E {
@@ -195,10 +194,6 @@ key Y {
   shift: 'Y'
   capslock: 'Y'
   capslock+shift: 'y'
-  ralt: '\u00fd'
-  ralt+shift: '\u00dd'
-  ralt+capslock: '\u00dd'
-  ralt+capslock+shift: '\u00fd'
 }
 
 key U {
@@ -345,31 +340,24 @@ key SEMICOLON {
 }
 
 key GRAVE {
-  label: '\u0027'
-  base: '\u0027'
-  shift: '\u0040'
-  capslock+shift: '\u0040'
-  ralt: '\u0301'
-  ralt+shift: '\u0060'
-  ralt+capslock+shift: '\u0060'
+  label: '\u0301' ## combining acute accent
+  base: '\u0301' ## combining acute accent
+  shift: '\u201c' ## "
+  capslock+shift: '\201c' ## "
 }
 
 key POUND {
-  label: '\u0300'
-  base: '\u0300'
-  shift: '\u00ac'
-  capslock+shift: '\u00ac'
-  ralt: '\u00a6'
+  label: '\u0300' ## combining grave accent
+  base: '\u0300' ## combining grave accent
+  shift: '\u0303' ## combining tilde
+  capslock+shift: '\u0303' ## combining tilde
 }
 
 key APOSTROPHE {
-  label: '\u0023'
-  base: '\u0023'
-  shift: '\u007e'
-  capslock+shift: '\u007e'
-  ralt: '\u0303'
-  ralt+shift: '\u005c'
-  ralt+capslock+shift: '\u005c'
+  label: '\u005c'
+  base: '\u005c'
+  shift: '\u007c'
+  capslock+shift: '\u007c'
 }
 
 key Z {
