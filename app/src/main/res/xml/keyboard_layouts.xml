@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
-    <keyboard-layout android:label="@string/keyboard_layout_united_kingdom_extended" android:name="keyboard_layout_united_kingdom_extended" android:keyboardLayout="@raw/keyboard_layout_united_kingdom_extended"/>
+    <keyboard-layout android:label="@string/keyboard_layout_us_extended" android:name="keyboard_layout_us_extended" android:keyboardLayout="@raw/keyboard_layout_us_extended"/>
 </keyboard-layouts>
