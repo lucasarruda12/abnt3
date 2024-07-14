@@ -56,7 +56,7 @@ map key 95 NUMPAD_COMMA
 
 key 1 {
   label: '1'
-  base: '1'
+  base: '\\'
   shift: '\u0021' ## !
   capslock+shift: '\u0021' ## !
   ralt: '\u00b9' ## ¹
@@ -343,7 +343,7 @@ key GRAVE {
   label: '\u0301' ## combining acute accent
   base: '\u0301' ## combining acute accent
   shift: '\u201c' ## "
-  capslock+shift: '\201c' ## "
+  capslock+shift: '\u201c' ## "
 }
 
 key POUND {

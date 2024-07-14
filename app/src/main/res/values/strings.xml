@@ -1,3 +1,5 @@
 <resources>
+	<string name="app_name">myKL</string>
 	<string name="keyboard_layout_us_extended">US Extended</string>
+	<string name="keyboard_layouts_label">US extended Keyboard Layout</string>
 </resources>
