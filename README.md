@@ -1,10 +1,6 @@
-# About the app part
+# abnt3
 
-Adds this option to the list of avaliable input formats for external (bluetooth, OTG) keyboards.
-
-# About the abnt3 part
-
-My attempt at adding `ABNT2`like functionalities to the standard us layout.  
+My attempt at adding `ABNT2`like functionalities to external android keyboards built to the standard us layout.  
 
 ## Changes
 
