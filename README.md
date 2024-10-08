@@ -1,16 +1,22 @@
-# ABOUT
+# About the app part
 
-Android keyboard mapping to add "ABNT2"like functionalities to the US layout.
+Adds this option to the list of avaliable input formats for external (bluetooth, OTG) keyboards.
 
-I hijacked the `RIGHT ALT`, `Tilde (~)`, `Grave Accent` and `Circumflex Accent (^)` keys. So you need to be fine with that.
+# About the abnt3 part
 
-## Changes from the US Layout
+My attempt at adding `ABNT2`like functionalities to the standard us layout.  
 
-`TODO`
+## Changes
 
-## Additions to the US Layout
+- `Accent` codes are now `combining accent` codes.
+> Where Accent ∈ {grave, circumflex, tilde}
+> So you can use `~a` to input `ã`, but need `~<space>` to input just the `~`.
 
-`TODO`
+## Additions
+
+- `<RIGHT ALT> + vowel` should input the acute accented version of that vowel
+> `RALT a` inputs `à`
+> [WARNING] And only that! you'll have to modify the code if you {need, like, want} the `RIGHT ALT` key.
 
 # BUILDING
 
