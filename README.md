@@ -1,5 +1,17 @@
-# extended us default
+# ABOUT
 
-Substitute `* Accent` codes with `Combining * Accent` codes in the standard us android keyboard layout
+Android keyboard mapping to add "ABNT2"like functionalities to the US layout.
 
-Perfect for typing íñ pôrtúgũeçè even with some *very* cheap external bluetooth keyboards that only work with the us layout
+I hijacked the `RIGHT ALT`, `Tilde (~)`, `Grave Accent (\`)` and `Circumflex Accent (^)` keys. So you need to be fine with that.
+
+## Changes from the US Layout
+
+`TODO`
+
+## Additions to the US Layout
+
+`TODO`
+
+# BUILDING
+
+I use Android Studio. You can check out the original repository for better instructions.
