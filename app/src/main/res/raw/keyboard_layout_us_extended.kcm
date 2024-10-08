@@ -340,17 +340,17 @@ key SEMICOLON {
 }
 
 key GRAVE {
-  label: '\u0301' ## combining acute accent
-  base: '\u0301' ## combining acute accent
+  label: '\u0027' ## apostrophe
+  base: '\u0027' ## apostrophe
   shift: '\u0022' ## "
   capslock+shift: '\u201c' ## "
 }
 
 key POUND {
-  label: '\u0300' ## combining grave accent
-  base: '\u0300' ## combining grave accent
-  shift: '\u0303' ## combining tilde
-  capslock+shift: '\u0303' ## combining tilde
+  label: '\u0303'
+  base: '\u0303' 
+  shift: '\u0300' 
+  capslock+shift: '\u0300'
 }
 
 key APOSTROPHE {
