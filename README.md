@@ -8,14 +8,13 @@ My attempt at adding `ABNT2`like functionalities to the standard us layout.
 
 ## Changes
 
-- `Accent` codes are now `combining accent` codes.
-> Where Accent ∈ {grave, circumflex, tilde}
-- So you can use `~a` to input `ã`, but need `~<space>` to input just the `~`.
+- {grave, circumflex, tilde} codes are now `combining` codes
+    - So you can use `~a` to input `ã`, but need `~<space>` to input just the `~`.
 
 ## Additions
 
 - `<RIGHT ALT> + vowel` should input the acute accented version of that vowel
-- `RALT a` inputs `à`
+    - `RALT a` inputs `à`
 > [WARNING] And only that! you'll have to modify the code if you {need, like, want} the `RIGHT ALT` key.
 
 # BUILDING
