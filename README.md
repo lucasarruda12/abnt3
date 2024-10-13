@@ -12,7 +12,3 @@ My attempt at adding `ABNT2`like functionalities to external android keyboards b
 - `<RIGHT ALT> + vowel` should input the acute accented version of that vowel
     - `RALT a` inputs `à`
 > [WARNING] And only that! you'll have to modify the code if you {need, like, want} the `RIGHT ALT` key.
-
-# BUILDING
-
-I use Android Studio. You can check out the original repository for better instructions.
